@@ -25,3 +25,11 @@
   .hero-copy>*,.hero-art>*,.feature,.mini-track i{animation:none!important;transition:none!important;translate:none!important;opacity:1!important}
 }
 @media print{.feature.reveal-pending{opacity:1;translate:none}}
+
+/* Legal pages share the site's readable document layout. */
+.policy-note{padding:20px 24px;background:var(--soft);border-left:3px solid var(--green);border-radius:0 8px 8px 0;font-size:15px}
+.legal-nav{display:flex;gap:12px 24px;flex-wrap:wrap;padding:20px 0;border-block:1px solid var(--line);margin:28px 0;font-size:14px}
+.document li{margin-bottom:12px;color:var(--muted)}
+.document a{overflow-wrap:anywhere}.document h2{scroll-margin-top:24px}
+.backup-section{border-top:1px solid var(--line)}.backup-section p{max-width:680px;color:var(--muted)}
+.footer-links{flex-wrap:wrap}

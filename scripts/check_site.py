@@ -12,7 +12,7 @@ class Links(HTMLParser):
         for key in ('href', 'src'):
             if key in attrs: self.links.append(attrs[key])
 pages={}
-for name in ('index.html','preview/index.html','privacy/index.html','support/index.html'):
+for name in ('index.html','preview/index.html','privacy/index.html','support/index.html','terms/index.html','data-choices/index.html'):
     path=ROOT/name; parser=Links(); parser.feed(path.read_text()); pages[path]=parser
 errors=[]
 for path, parser in pages.items():
