@@ -1,5 +1,7 @@
 # HomeSchoolHelper website plan
 
+> Historical planning document from the original prototype phase. The native app has since added many items described below as planned. Use `README.md`, the live pages, and `APP_STORE_READINESS.md` for the current source review against commit `bb8bb85`.
+
 ## Purpose and source
 
 Introduce HomeSchoolHelper to homeschooling parents, explain the proposed iOS experience, and help families explore the design. Start with a product-preview website; evolve it into an App Store marketing site when the app is available.

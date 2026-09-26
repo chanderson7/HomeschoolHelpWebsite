@@ -1,0 +1,6 @@
+/.well-known/apple-app-site-association
+  Content-Type: application/json
+  Cache-Control: no-cache
+
+/auth/*
+  Cache-Control: no-store

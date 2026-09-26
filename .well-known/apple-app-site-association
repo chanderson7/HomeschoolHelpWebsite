@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "26BWL2RFDX.com.chanderson7.HomeSchoolHelper"
+        ],
+        "components": [
+          {
+            "/": "/auth/*",
+            "comment": "HomeSchoolHelper authentication and password-recovery callbacks"
+          }
+        ]
+      }
+    ]
+  }
+}
